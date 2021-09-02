@@ -2,6 +2,6 @@
 
 ### This Repo Include 
 
-- particlesJs 
+- ParticlesJs 
 - Spiral CSS Animation
 - Stairs Loader 
