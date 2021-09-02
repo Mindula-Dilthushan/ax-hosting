@@ -11,37 +11,6 @@ canvas {
     position: fixed;
     width: 100vw;
     height: 100vh;
+    background-color: #ffffff;
     background-image: linear-gradient(to right top, #5f27cd, #6133d2, #633dd7, #6547dc, #6850e1, #4d69ef, #2d7ff9, #0092ff, #00b1ff, #00cdff, #00e5fd, #5ffbf1);
-}
-
-.text {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    -webkit-transform: translate(50%, -50%);
-    transform: translate(50%, -50%);
-    color: #fff;
-    max-width: 90%;
-    padding: 2em 3em;
-    background: rgba(0, 0, 0, 0.4);
-    text-shadow: 0 0 2px #131415;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1 {
-    font-size: 2.25em;
-    font-weight: 700;
-    letter-spacing: -1px;
-}
-
-a,
-a:visited {
-    color: #e34234;
-    -webkit-transition: 0.25s;
-    transition: 0.25s;
-}
-
-a:hover,
-a:focus {
-    color: #ba160c;
 }
