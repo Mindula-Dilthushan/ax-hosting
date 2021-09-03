@@ -5,3 +5,4 @@
 - ParticlesJs 
 - Spiral CSS Animation
 - Stairs Loader 
+- Star Animation
