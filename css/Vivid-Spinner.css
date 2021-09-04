@@ -1,0 +1,44 @@
+html, body {
+    background-image: linear-gradient(to right, #d35400, #d75c06, #da640d, #de6c14, #e1741a, #e57d26, #e98531, #ed8e3c, #f29a4e, #f6a65f, #fbb170, #ffbd82);
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.bar {
+    position: relative;
+    height: 2px;
+    width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 150px;
+}
+
+.circle {
+    position: absolute;
+    top: -30px;
+    margin-left: -30px;
+    height: 60px;
+    width: 60px;
+    left: 0;
+    background: #fff;
+    border-radius: 30%;
+    -webkit-animation: move 5s infinite;
+}
+
+p {
+    position: absolute;
+    top: -35px;
+    right: -85px;
+    text-transform: uppercase;
+    color: #2c3e50;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+}
+
+@-webkit-keyframes move {
+    0% {left: 0;}
+    50% {left: 100%; -webkit-transform: rotate(450deg); width: 150px; height: 150px;}
+    75% {left: 100%; -webkit-transform: rotate(450deg); width: 150px; height: 150px;}
+    100% {right: 100%;}
+}
