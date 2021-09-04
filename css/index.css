@@ -39,19 +39,7 @@ body {
     color: black;
 }
 /*--------------------------*/
-#btnSpiral{
-    margin-left: 20px;
-    margin-top: 20px;
-}
-#btnStairs{
-    margin-left: 20px;
-    margin-top: 20px;
-}
-#btnStar{
-    margin-left: 20px;
-    margin-top: 20px;
-}
-#btnVivid{
+.btn-outline-light{
     margin-left: 20px;
     margin-top: 20px;
 }
