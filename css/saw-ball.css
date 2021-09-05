@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #16a085, #17a589, #17aa8d, #18b092, #19b596, #15b694, #13b892, #11b98f, #11b684, #16b479, #1eb16d, #27ae60);
+    font-family: "Montserrat", sans-serif;
+}
+.ball {
+    position: relative;
+    bottom: 100px;
+    left: calc(100% - 70px);
+    width: 100px;
+    height: 100px;
+    background: #f39c12;
+    border-radius: 50%;
+    animation: ball-move 4s ease-in-out 2s infinite alternate;
+}
+.ball::after {
+    position: absolute;
+    content: '';
+    top: 50px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    background: #FFF;
+    border-radius: 50%;
+}
+.bar {
+    width: 500px;
+    height: 25px;
+    background: #ffffff;
+    border-radius: 30px;
+    transform: rotate(-15deg);
+    filter: drop-shadow(20px 10px 4px rgba(128, 128, 128, 0.13));
+    animation: up-down 4s ease-in-out 2s infinite alternate;
+}
+@keyframes up-down {
+    from {transform: rotate(-15deg);}
+    to {transform: rotate(15deg);}
+}
+@keyframes ball-move {
+    from {left: calc(100% - 70px); transform: rotate(360deg);}
+    to {left: calc(0% - 35px); transform: rotate(0deg);}
+}
