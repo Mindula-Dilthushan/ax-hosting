@@ -1,6 +1,6 @@
 # Ax hosting 
 
-## CSS ANIMATION 
+## CSS ANIMATIONS
 
 ### This Repo Include 
 
