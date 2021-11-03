@@ -10,3 +10,4 @@
 - Star Animation
 - Vivid Spinner
 - Saw Ball Animation
+- Bar Loading
