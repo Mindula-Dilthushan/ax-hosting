@@ -1,8 +1,8 @@
-# Ax hosting 
+<h1 align="center"> Ax hosting </h1>
 
-## CSS ANIMATIONS
+<h2 align="center"> CSS ANIMATIONS </h2>
 
-#### This Repo Include 
+<h4> This Repo Include </h4>
 
 - ParticlesJs 
 - Spiral CSS Animation
